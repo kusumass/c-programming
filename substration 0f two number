@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a, b, sub;
+printf("enter the value of a");
+scanf("%d", &a);
+printf("enter the value of b");
+scanf("%d" ,&b);
+sub=a-b;
+printf("the sub of a and b is %d",sub);
+getch();
+}
